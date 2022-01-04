@@ -1,0 +1,52 @@
+* {
+  background-color: gainsboro;
+}
+
+@media screen and (min-width: 0px) and (max-width: 599px) {
+  #title-id {
+    width: 100%;
+    text-align: right;
+  }
+  #lblDat-id {
+    text-align: left;
+  }
+}
+
+#cont-id {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-id {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: lightseagreen;
+}
+.inpClass {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 5px;
+}
+
+#checkB-id {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#lblDat-id {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#submit-id {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: lightseagreen;
+  color: ivory;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
